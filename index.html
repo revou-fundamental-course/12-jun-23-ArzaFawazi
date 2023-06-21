@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,3 +26,32 @@
   <script src="index.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Celcius to Fahrenheit<br>&<br>Fahrenheit to Celcius</h1>
+
+  <form id="temperatureForm">
+    <label for="temperatureInput">Enter temperature:</label>
+    <input type="text" id="temperatureInput" placeholder="Input Temperature Disini" name="temperatureInput" required>
+<br>
+    <label for="conversionType" >Select conversion:</label>
+    <select id="conversionType" name="conversionType">
+      <option value="celsius">Celsius to Fahrenheit</option>
+      <option value="fahrenheit">Fahrenheit to Celsius</option>
+    </select>
+
+    <input type="submit" value="Konversi" id="konversi">
+  </form>
+
+  <div id="conversionResult"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
